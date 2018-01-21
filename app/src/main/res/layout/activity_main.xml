@@ -64,6 +64,7 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
+                android:id="@+id/addThirtyForGryffindor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/small_margin"
@@ -71,10 +72,10 @@
                 android:layout_marginRight="@dimen/large_margin"
                 android:background="@color/snitch"
                 android:drawableLeft="@drawable/small_snitch"
-                android:onClick="addThirtyForGryffindor"
                 android:text="Snitch +30" />
 
             <Button
+                android:id="@+id/addTenForGryffindor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/small_margin"
@@ -82,7 +83,6 @@
                 android:layout_marginRight="@dimen/large_margin"
                 android:background="@color/quaffle"
                 android:drawableLeft="@drawable/small_quaffle"
-                android:onClick="addTenForGryffindor"
                 android:text="Quaffle +10" />
         </LinearLayout>
 
@@ -124,6 +124,7 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
+                android:id="@+id/addThirtyForSlytherin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/small_margin"
@@ -131,10 +132,10 @@
                 android:layout_marginRight="@dimen/large_margin"
                 android:background="@color/snitch"
                 android:drawableLeft="@drawable/small_snitch"
-                android:onClick="addThirtyForSlytherin"
                 android:text="Snitch +30" />
 
             <Button
+                android:id="@+id/addTenForSlytherin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/small_margin"
@@ -142,19 +143,18 @@
                 android:layout_marginRight="@dimen/large_margin"
                 android:background="@color/quaffle"
                 android:drawableLeft="@drawable/small_quaffle"
-                android:onClick="addTenForSlytherin"
                 android:text="Quaffle +10" />
 
         </LinearLayout>
     </LinearLayout>
 
     <Button
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/medium_margin"
-        android:onClick="resetScore"
         android:text="Reset" />
 
 </RelativeLayout>
