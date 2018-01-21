@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int gScore = 0;
     int sScore = 0;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
